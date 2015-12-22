@@ -1,5 +1,11 @@
 $(document).ready(function() { 
-
+    /*============================================
+    Page Preloader
+    ==============================================*/
+    
+    $(window).load(function(){
+        $('#page-loader').fadeOut(500);
+    }); 
         /*============================================
     Navigation Functions
     ==============================================*/
@@ -41,7 +47,7 @@ $(document).ready(function() {
         $('.chart').each(function(){
         $(this).easyPieChart({
                 size:170,
-                animate: 2000,
+                animate: 1500,
                 lineCap:'butt',
                 scaleColor: false,
                 barColor: aboutColor,
@@ -96,7 +102,14 @@ $(document).ready(function() {
         scrollSpyRefresh();
         waypointsRefresh();
     });
-    
+
+        /*============================================
+    Scrolling Animations
+    ==============================================*/
+    $('.scrollimation').waypoint(function(){
+        $(this).toggleClass('in');
+    },{offset:'90%'});
+
     /*============================================
     Refresh scrollSpy function
     ==============================================*/
