@@ -10,7 +10,7 @@
 }
 
 .demo-1 .large-header {
-	background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('http://digipraim.com/data_images/out/1/579227-city-lights.jpg') no-repeat top center fixed;
+	background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../img/city-night.jpg') no-repeat top center fixed;
 	background-size: cover;
 	height: 600px;
 	width: 100%;

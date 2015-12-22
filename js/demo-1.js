@@ -108,7 +108,7 @@ $(document).ready(function() {
     ==============================================*/
     $.backstretch('assets/header-bg.jpg');
 
-    $('#contact').append('<img class="preload-image" src="http://d8st7idcnjoas.cloudfront.net/galfull/CT-745.jpg" style="display:none;"/>');
+    $('#contact').append('<img class="preload-image" src="./img/contact-image.jpg" style="display:none;"/>');
 
     $('#about').waypoint(function(direction){
     

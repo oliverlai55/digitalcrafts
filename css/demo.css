@@ -20,6 +20,11 @@ body {
 	font-size: 1em;
 	line-height: 1.25;
 	font-family: 'Raleway', Calibri, Arial, sans-serif;
+
+}
+
+.container-fluid{
+	padding:0 !important;
 }
 
 a, button {
