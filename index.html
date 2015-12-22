@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<title>Animated Background Headers | Demo 1</title>
+	<meta name="description" content="Examples for creative website header animations using Canvas and JavaScript" />
+	<meta name="keywords" content="header, canvas, animated, creative, inspiration, javascript" />
+	<meta name="author" content="Codrops" />
+	<link rel="shortcut icon" href="../favicon.ico">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="css/demo.css" />
+	<link rel="shortcut icon" href="assets/favicon.ico">
+	<link rel="stylesheet" type="text/css" href="css/component.css" />
+	<link href='http://fonts.googleapis.com/css?family=Raleway:200,400,800' rel='stylesheet' type='text/css'>
+		<!--[if IE]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<script type="text/javascript" src="js/modernizr.min.js"></script>
+</head>
+<body>
+			<!-- ==============================================
+		MAIN NAV
+		=============================================== -->
+		<div id="main-nav" class="navbar navbar-fixed-top">
+			<div class="container">
+
+				<div class="navbar-header">
+
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#site-nav">
+						<span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+					</button>
+					
+					<!-- ======= LOGO ========-->
+					<!-- <a class="navbar-brand scrollto" href="#home">OLIVER LAI<br><span>WEB DEVELOPER</span></a> -->
+					<!-- <a class="navbar-brand scrollto ir-logo" href="#">JOHN DOE<br><span>UI Designer</span></a> -->
+
+				</div>
+				
+				<div id="site-nav" class="navbar-collapse collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li class="sr-only">
+							<a href="#home" class="scrollto">Home</a>
+						</li>
+						<li>
+							<a href="#about" class="scrollto">About Me</a>
+						</li>
+						<li>
+							<a href="#about" class="scrollto">Resume</a>
+						</li>
+						<li>
+							<a href="#portfolio" class="scrollto">My Works</a>
+						</li>
+						<li>
+							<a href="#contact" class="scrollto">Contact Me</a>
+						</li>
+					</ul>
+				</div><!--End navbar-collapse -->
+				
+			</div><!--End container -->
+			
+		</div><!--End main-nav -->
+		
+		<div class="container-fluid demo-1">
+			<div class="content">
+				<div id="large-header" class="large-header">
+					<canvas id="demo-canvas"></canvas>
+					<h1 class="main-title">OLIVER <span class="thin">LAI</span></h1>
+					<h3 class="sub-title">Web Developer. Builder. Designer.</h3>
+				</div>
+
+
+			</div>
+<!-- =======ABOUT PAGE ============ -->	
+<section id="about">
+
+	<div class="container">
+
+		<div class="row">
+			<div class="col-sm-4 col-sm-offset-1 scrollimation fade-right">
+				<img class="img-responsive img-circle img-center" src="img/2.jpg" alt="">
+			</div>
+			<div class="col-sm-6 col-sm-offset-1 scrollimation fade-left">
+				<h1>Hello, I am Oliver Lai</h1>
+				<p>I'm a current student and an aspiring full-stack web developer at <a href="http://www.digitalcrafts.com/" target="_blank">DigitalCrafts</a>. I have front-end web development experience such as <a href="#somelink">these pages</a> as well as back-end experience in <a href="#somelink">these portfolio</a> </p>
+				<a href="#portfolio" class="btn btn-theme transparent scrollto">View my Works</a>
+			</div>
+		</div><!--End row -->
+
+	</div><!--End container -->
+
+</section><!--End about section -->
+
+<!-- ==============================================
+		SKILLS
+		=============================================== -->			
+<section id="skills">
+
+			<div class="container">
+
+				<div class="row skills">
+
+					<div class="col-sm-6 col-md-3 text-center">
+						<span class="chart" data-percent="70"><span class="percent">70</span></span>
+						<h2 class="text-center">HTML / CSS</h2>
+					</div>
+					<div class="col-sm-6 col-md-3 text-center">
+						<span class="chart" data-percent="65"><span class="percent">65</span></span>
+						<h2 class="text-center">JavaScript / jQuery</h2>
+					</div>
+					<div class="col-sm-6 col-md-3 text-center">
+						<span class="chart" data-percent="60"><span class="percent">60</span></span>
+						<h2 class="text-center">MEAN Stack</h2>
+					</div>
+					<div class="col-sm-6 col-md-3 text-center">
+						<span class="chart" data-percent="60"><span class="percent">60</span></span>
+						<h2 class="text-center">LAMP Stack</h2>
+					</div>
+					
+				</div><!--End row -->
+				
+			</div><!--End container -->
+			
+</section><!--End skills section -->
+
+
+<!-- ========Portfolio Page========== -->
+<section  id="portfolio">
+
+	<div id="portfolio-header" class="text-center">
+
+		<h1 class="section-title scrollimation scale-in">Selected <span>Works</span><i class="fa fa-pencil"></i></h1>
+
+		<!--==== Portfolio Filters ====-->
+		<div id="filter-works">
+			<ul>
+				<li class="active">
+					<a href="#" data-filter="*">All</a>
+				</li>
+				<li>
+				<a href="#" data-filter=".front-end">Front-End</a>
+				</li>
+				<li>
+					<a href="#" data-filter=".back-end">Back-End</a>
+				</li>
+				<li>
+					<a href="#" data-filter=".ios">iOS</a>
+				</li>
+			</ul>
+		</div><!--End portfolio filters -->
+
+	</div><!--End portfolio header -->
+
+	<div class="container masonry-wrapper">
+		<div id="projects-container">
+			<!-- <div class="row"> -->
+				<a class="project-item back-end col-sm-4" href="#" data-image="img/dcroast.png">
+					<img class="img-responsive project-image" src="img/dcroast.png">
+					<div class="hover-mask">
+						<h2 class="project-title">Digital Coffee Roast</h2>
+					</div>
+				</a>
+
+				<a class="project-item front-end col-sm-4" href="#" data-image="img/canvasapp.png">
+					<img class="img-responsive project-image" src="img/canvasapp.png">
+					<div class="hover-mask">
+						<h2 class="project-title">Canvas Weather App</h2>
+					</div>
+				</a>
+
+				<a class="project-item front-end col-sm-4" href="#" data-image="img/blackjack-game.png">
+					<img class="img-responsive project-image" src="img/blackjack-game.png">
+					<div class="hover-mask">
+						<h2 class="project-title">BlackJack Game</h2>
+					</div>
+				</a>
+			<!-- </div> -->
+			<!-- <div class="row"> -->
+				<a class="project-item front-end col-sm-4" href="#" data-image="img/movieApp.png">
+					<img class="img-responsive project-image" src="img/movieApp.png">
+					<div class="hover-mask">
+						<h2 class="project-title">Movie App</h2>
+					</div>
+				</a>
+				<a class="project-item front-end col-sm-4" href="#" data-image="img/tictactoe.png">
+					<img class="img-responsive project-image" src="img/tictactoe.png">
+					<div class="hover-mask">
+						<h2 class="project-title">Tic Tac Toe</h2>
+					</div>
+				</a>
+				<a class="project-item front-end col-sm-4" href="#" data-image="img/goblin-game.png">
+					<img class="img-responsive project-image" src="img/goblin-game.png">
+					<div class="hover-mask">
+						<h2 class="project-title">Goblin Game</h2>
+					</div>
+				</a>
+
+			<!-- </div> -->
+			<a class="project-item front-end" href="#" data-image="img/interactive-map.png">
+				<img class="img-responsive project-image" src="img/interactive-map.png">
+				<div class="hover-mask">
+					<h2 class="project-title">Interactive Map</h2>
+				</div>
+			</a>
+		</div>
+	</div>
+
+</section><!-- End portfolio section -->
+
+		</div><!-- /container -->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script>window.jQuery || document.write('<script src="js/jquery-1.9.1.min.js">\x3C/script>')</script>
+		
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+		<script src="js/TweenLite.min.js"></script>
+		<script src="js/EasePack.min.js"></script>
+		<script src="js/rAF.js"></script>
+		
+		<script src='js/jquery.masonry.js'></script>
+		<script src="js/waypoints.min.js"></script>
+		<script src="js/jquery.easypiechart.min.js"></script>
+		<script src="js/demo-1.js"></script>
+	</body>
+</html>
