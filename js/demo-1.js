@@ -103,6 +103,25 @@ $(document).ready(function() {
         waypointsRefresh();
     });
 
+    /*============================================
+    Backstretch Images
+    ==============================================*/
+    $.backstretch('assets/header-bg.jpg');
+
+    $('#contact').append('<img class="preload-image" src="http://d8st7idcnjoas.cloudfront.net/galfull/CT-745.jpg" style="display:none;"/>');
+
+    $('#about').waypoint(function(direction){
+    
+        if($('.preload-image').length){$('.preload-image').remove();}
+        
+        $('.backstretch').remove();
+    
+        if (direction=='down'){
+            $.backstretch('http://d8st7idcnjoas.cloudfront.net/galfull/CT-745.jpg');
+        }else{
+            $.backstretch('assets/header-bg.jpg');
+        }
+    });
         /*============================================
     Scrolling Animations
     ==============================================*/
