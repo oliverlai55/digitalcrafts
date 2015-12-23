@@ -773,7 +773,7 @@ project-title*/
 #contact .contact-info p,
 #contact .contact-info address{
     margin:0 0 30px;
-    font-size:25px;
+    font-size:30px;
     line-height:30px;
     font-weight:400;
 }
@@ -837,7 +837,7 @@ project-title*/
     font-size:30px;
     line-height:48px;
     font-weight:300;
-    color:#8aaad9;
+    color:#637187;
     padding-left:64px;
 }
 
@@ -851,7 +851,7 @@ project-title*/
     position:absolute;
     top:0;
     left:5px;
-    color:#8aaad9;
+    color:#637187;
     font-size:32px;
     line-height:68px;
     text-align:center;
