@@ -108,7 +108,7 @@ $(document).ready(function() {
     ==============================================*/
     $.backstretch('assets/header-bg.jpg');
 
-    $('#contact').append('<img class="preload-image" src="./img/contact-image.jpg" style="display:none;"/>');
+    $('#contact').append('<img class="preload-image" src="./img/tokyo4.gif" style="display:none; background: linear-gradient( rgba(0, 0, 0, 1), rgba(0, 0, 0, 1))"/>');
 
     $('#about').waypoint(function(direction){
     
@@ -117,7 +117,7 @@ $(document).ready(function() {
         $('.backstretch').remove();
     
         if (direction=='down'){
-            $.backstretch('http://d8st7idcnjoas.cloudfront.net/galfull/CT-745.jpg');
+            $.backstretch('./img/tokyo4.gif');
         }else{
             $.backstretch('assets/header-bg.jpg');
         }

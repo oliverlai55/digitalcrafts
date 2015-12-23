@@ -741,12 +741,15 @@ project-title*/
 #contact {
     background:transparent;
     color:#fff;
-	padding:80px 0; 
+	padding:50px 0; 
 }
 
 #contact .section-title {
     color:#fff;
     margin-bottom:84px;
+    font-size: 5.2em;
+    margin-top: 100px;
+
 }
 
 #contact .section-title [class*=fa]{
