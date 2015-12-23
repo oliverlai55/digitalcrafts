@@ -106,22 +106,22 @@ $(document).ready(function() {
     /*============================================
     Backstretch Images
     ==============================================*/
-    $.backstretch('assets/header-bg.jpg');
+    // $.backstretch('assets/header-bg.jpg');
 
-    $('#contact').append('<img class="preload-image" src="./img/tokyo4.gif" style="display:none; background: linear-gradient( rgba(0, 0, 0, 1), rgba(0, 0, 0, 1))"/>');
+    // $('#contact').append('<img class="preload-image" src="./img/city-night.gif" style="display:none; background: linear-gradient( rgba(0, 0, 0, 1), rgba(0, 0, 0, 1))"/>');
 
-    $('#about').waypoint(function(direction){
+    // $('#about').waypoint(function(direction){
     
-        if($('.preload-image').length){$('.preload-image').remove();}
+    //     if($('.preload-image').length){$('.preload-image').remove();}
         
-        $('.backstretch').remove();
+    //     $('.backstretch').remove();
     
-        if (direction=='down'){
-            $.backstretch('./img/tokyo4.gif');
-        }else{
-            $.backstretch('assets/header-bg.jpg');
-        }
-    });
+    //     if (direction=='down'){
+    //         $.backstretch('./img/city-night.gif');
+    //     }else{
+    //         $.backstretch('assets/header-bg.jpg');
+    //     }
+    // });
         /*============================================
     Scrolling Animations
     ==============================================*/

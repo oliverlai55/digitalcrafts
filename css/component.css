@@ -17,6 +17,13 @@
 	margin: 0;
 }
 
+.contact-text{
+	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/tokyo-night.gif') no-repeat top center fixed;
+	background-size: cover;
+	height: 800px;
+	width: 100%;
+	margin: 0;
+}
 
 .main-title {
 	position: absolute;
@@ -741,7 +748,7 @@ project-title*/
 #contact {
     background:transparent;
     color:#fff;
-	padding:50px 0; 
+	padding:20px 0; 
 }
 
 #contact .section-title {
@@ -766,7 +773,7 @@ project-title*/
 #contact .contact-info p,
 #contact .contact-info address{
     margin:0 0 30px;
-    font-size:18px;
+    font-size:25px;
     line-height:30px;
     font-weight:400;
 }
@@ -872,18 +879,18 @@ project-title*/
 }
 
 #contact-form .form-control::-webkit-input-placeholder { /* WebKit browsers */
-    color:    #8aaad9;
+    color:    #637187;
 }
 #contact-form .form-control:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-    color:    #8aaad9;
+    color:    #637187;
     opacity:1;
 }
 #contact-form .form-control::-moz-placeholder { /* Mozilla Firefox 19+ */
-    color:    #8aaad9;
+    color:    #637187;
     opacity:1;
 }
 #contact-form .form-control:-ms-input-placeholder { /* Internet Explorer 10+ */
-    color:    #8aaad9;
+    color:    #637187;
 }
 
 #contact-form .error-message {
