@@ -33,8 +33,12 @@
 	text-align: center;
 	top: 50%;
 	left: 50%;
+	text-transform: uppercase;
+	font-size: 7.2em;
+	letter-spacing: 0.1em;
 	-webkit-transform: translate3d(-50%,-50%,0);
 	transform: translate3d(-50%,-50%,0);
+
 }
 
 .sub-title{
@@ -52,29 +56,14 @@
 	margin-top: 7%;
 }
 
-.demo-1 .main-title, 
-.demo-3 .main-title {
-	text-transform: uppercase;
-	font-size: 7.2em;
-	letter-spacing: 0.1em;
-}
-
-
-
 
 .main-title .thin {
 	font-weight: 200;
 }
 
 @media only screen and (max-width : 768px) {
-	.demo-1 .main-title, 
-	.demo-3 .main-title,
-	.demo-4 .main-title {
+	.demo-1 .main-title {
 		font-size: 3em;
-	}
-
-	.demo-2 .main-title {
-		font-size: 4em;
 	}
 }
 
@@ -82,7 +71,7 @@
 /*----------------------
 ---Main Layout Styles---
 ------------------------*/
-#main-nav a.ir-logo {
+/*#main-nav a.ir-logo {
     margin:0;
     margin-top:5px;
     padding:0;
@@ -91,27 +80,27 @@
 	text-indent: 200%;
 	white-space: nowrap;
 	overflow: hidden;
-    background: url("../assets/logo.png");
-}
 
-#main-nav a.ir-logo span{
+}*/
+
+/*#main-nav a.ir-logo span{
     color:transparent;
     font:0/0 a;
-}
+}*/
 
-.navbar {
+/*.navbar {
     margin:0;
     border-radius:0;
-}
+}*/
 
 #main-nav .navbar-toggle{
     border:1px solid rgba(255,255,255,0.5);
     border-radius:0;
 }
 
-#main-nav .icon-bar {
+/*#main-nav .icon-bar {
     background:#fff;
-}
+}*/
 
 /*-----------------------
 ---- Preloader Styles ----
@@ -139,7 +128,7 @@
 /*----------------------
 ----Navigation Styles---
 ------------------------*/
-.navbar-brand,
+/*.navbar-brand,
 .navbar-brand:hover,
 .navbar-brand:active,
 .navbar-brand:focus {
@@ -149,16 +138,16 @@
     font-weight:normal;
     height:auto;
     color:#fff;
-}
+}*/
 
-.navbar-brand span {
+/*.navbar-brand span {
     font-size:24px;
     font-weight:300;
-}
+}*/
 
-#main-nav.scrolled .navbar-brand{
+/*#main-nav.scrolled .navbar-brand{
     color:#637187;
-}
+}*/
 
 #main-nav{
     background:transparent;
@@ -178,9 +167,9 @@
     border-color:#637187;
 }
 
-#main-nav.scrolled .navbar-toggle .icon-bar{
+/*#main-nav.scrolled .navbar-toggle .icon-bar{
     background:#8aaad9;
-}
+}*/
 
 #main-nav .container{
     padding:30px 20px;
