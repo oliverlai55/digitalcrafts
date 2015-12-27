@@ -253,6 +253,7 @@
 #main-nav .nav li.active a:before {
 	color: #fff;
 	text-shadow: 12px 0 #fff, -12px 0 #fff;
+
 }
 
 #main-nav.scrolled .nav a:hover:before,
