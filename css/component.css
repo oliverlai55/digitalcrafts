@@ -178,10 +178,10 @@
     border-color:#637187;
 }
 
-/*delete*/
-/*#main-nav.scrolled .navbar-toggle .icon-bar{
+
+#main-nav.scrolled .navbar-toggle .icon-bar{
     background:#8aaad9;
-}*/
+}
 
 #main-nav .container{
     padding:30px 20px;
@@ -395,9 +395,7 @@ project-title*/
     margin-bottom:60px;
 }
 
-#portfolio .section-title [class*=fa]{
-    color:#fff;
-}
+
 
 #portfolio-header {
     padding:80px 0;
