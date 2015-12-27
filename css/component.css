@@ -96,17 +96,18 @@
 /*.navbar {
     margin:0;
     border-radius:0;
-}
-*/
+}*/
+
 #main-nav .navbar-toggle{
     border:1px solid rgba(255,255,255,0.5);
     border-radius:0;
+
 }
 
 /*delete*/
-#main-nav .icon-bar {
+/*#main-nav .icon-bar {
     background:#fff;
-}
+}*/
 
 /*-----------------------
 ---- Preloader Styles ----
@@ -209,6 +210,8 @@
 #main-nav.scrolled .nav a:active,
 #main-nav.scrolled .nav a:hover{
     color:#637187;
+    /*border: none;*/
+    outline:none;
 }
 
 
@@ -216,6 +219,7 @@
     background:transparent;
     margin:0 10px;
     border:2px solid transparent;
+    outline:none;
 }
 
 #main-nav .dropdown-menu a{
