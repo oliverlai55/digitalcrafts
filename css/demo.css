@@ -1,4 +1,4 @@
-@font-face {
+/*@font-face {
 	font-weight: normal;
 	font-style: normal;
 	font-family: 'codropsicons';
@@ -7,7 +7,7 @@
 		url('../fonts/codropsicons/codropsicons.woff') format('woff'),
 		url('../fonts/codropsicons/codropsicons.ttf') format('truetype'),
 		url('../fonts/codropsicons/codropsicons.svg#codropsicons') format('svg');
-}
+}*/
 
 *, *:after, *:before { -webkit-box-sizing: border-box; box-sizing: border-box; }
 .clearfix:before, .clearfix:after { content: ''; display: table; }
@@ -51,7 +51,7 @@ p.ref {
 }
 
 /* Header */
-.codrops-header {
+/*.codrops-header {
 	margin: 0 auto;
 	padding: 2em;
 	text-align: center;
@@ -71,10 +71,10 @@ p.ref {
 	font-size: 36%;
 	color: #95a5a6;
 	line-height: 1.4;
-}
+}*/
 
 /* To Navigation Style */
-.codrops-top {
+/*.codrops-top {
 	width: 100%;
 	text-transform: uppercase;
 	font-weight: 700;
@@ -108,10 +108,10 @@ p.ref {
 
 .codrops-icon-prev:before {
 	content: "\e004";
-}
+}*/
 
 /* Demo Buttons Style */
-.codrops-demos {
+/*.codrops-demos {
 	padding-top: 1em;
 	font-size: 0.8em;
 }
@@ -152,45 +152,9 @@ p.ref {
 .codrops-demos a.current-demo {
 	color: inherit;
 	border-color: initial;
-}
+}*/
 
-/* Related demos */
-.related {
-	padding: 10em 0;
-}
 
-.related p {
-	font-size: 1.5em;
-}
-
-.related > a {
-	display: inline-block;
-	text-align: center;
-	margin: 20px 10px;
-	padding: 25px;
-	vertical-align: middle;
-}
-
-.related a img {
-	max-width: 100%;
-	opacity: 0.8;
-	border-radius: 10px;
-}
-
-.related a:hover img,
-.related a:active img {
-	opacity: 1;
-}
-
-.related a h3 {
-	margin: 0;
-	min-height: 63px;
-	padding: 0.5em 0 0.3em;
-	max-width: 300px;
-	text-align: center;
-	font-weight: 400;
-	font-size: 1em;
-}
 
 @media screen and (max-width: 40em) {
 

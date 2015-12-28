@@ -25,7 +25,7 @@ $(window).scroll(function(){
 
 // ======== ScrollTo Links ===========
 $('a.scrollto').click(function(e){
-    $('html,body').scrollTo(this.hash, this.hash, {gap:{y:-80}});
+    $('html,body').scrollTo(this.hash, this.hash, {gap:{y:-45}});
     e.preventDefault();
 
     if ($('.navbar-collapse').hasClass('in')){
