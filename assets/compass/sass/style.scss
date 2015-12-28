@@ -1,4 +1,25 @@
-//Header
+// ======= Preloader ========
+#page-loader{
+	position: fixed;
+	right:0;
+	bottom: 0;
+	top: 0;
+	width:100%;
+	background: #fff;
+	z-index: 99999;
+	.page-loader-gif{
+		display: block;
+		width:64px;
+		height:64px;
+		position: absolute;
+		top:50%;
+		left:50%;
+		margin:-32px 0 0 -32px;
+		background: url('../img/balls.gif') no-repeat;
+	}
+}
+
+// ======== Header ==========
 .demo-1{
 	.large-header {
 		position: relative;
@@ -47,3 +68,112 @@
 		font-size: 3em;
 	}
 }
+
+
+// ======== Nav Bar ========
+#main-nav{
+	background:transparent;
+	color:#fff;
+	box-shadow:0 0 0px transparent;
+	-webkit-transition:background 0.3s ease-out;
+	transition:background 0.3s ease-out;
+	outline: none;
+	.navbar-toggle{
+		border:1px solid rgba(255,255,255,0.5);
+		border-radius:0;
+	}
+	.icon-bar {
+		background:#fff;
+	}
+	.container{
+		padding:30px 20px;
+		-webkit-transition:padding 0.5s ease-out;
+		transition:padding 0.5s ease-out;
+	}
+	.nav a,
+	#main-nav .nav a:active,
+	#main-nav .nav a:hover{
+		padding:0px 10px;
+		font-size:18px;
+		line-height:54px;
+		font-weight:400;
+		background:transparent;
+		color:#fff;
+	}
+	li{
+		background:transparent;
+		margin:0 10px;
+		border:2px solid transparent;
+		outline:none;
+	}
+	.dropdown-menu a{
+		font-size:14px;
+	}
+	.nav a {
+		position:relative;
+	}
+	.nav a:before {
+		position: absolute;
+		bottom:-5px;
+		left: 50%;
+		color: transparent;
+		content: '•';
+		text-shadow: 0 0 transparent;
+		font-size: 16px;
+		line-height:21px;
+		-webkit-transition: text-shadow 0.3s, color 0.3s;
+		-moz-transition: text-shadow 0.3s, color 0.3s;
+		transition: text-shadow 0.3s, color 0.3s;
+		-webkit-transform: translateX(-50%);
+		-moz-transform: translateX(-50%);
+		transform: translateX(-50%);
+		pointer-events: none;
+	}
+	.nav a:hover:before,
+	.nav li.active a:before {
+		color: #fff;
+		text-shadow: 12px 0 #fff, -12px 0 #fff;
+
+	}
+}
+
+#main-nav.scrolled{
+	background:#fff;
+	border-bottom:1px solid #ddd;
+	outline: none;
+	.navbar-brand{
+		color:#637187;
+	}
+	.navbar-toggle{
+		color:#637187;
+		border-color:#637187;
+		.icon-bar{
+			background:#637187;
+		}
+		.container{
+			padding:0px 10px;
+		}
+	}
+	.nav a,
+	.nav a:active,
+	.nav a:hover{
+		color:#637187;
+		/*border: none;*/
+		outline:none;
+	}
+	.nav a:hover:before,
+	.nav li.active a:before {
+		color: #637187;
+		text-shadow: 12px 0 #8aaad9, -12px 0 #8aaad9;
+	}
+}
+
+.no-textshadow #main-nav .nav a:before {
+	content: '• • •';
+}
+
+.no-csstransforms #main-nav .nav a:before {
+	margin-left:-15px;
+}
+ 
+// ====== About Section =======
