@@ -94,33 +94,28 @@ $('#filter-works a').click(function(e){
 });
 
 
-        /*============================================
-    Scrolling Animations
-    ==============================================*/
-    $('.scrollimation').waypoint(function(){
-        $(this).toggleClass('in');
-    },{offset:'90%'});
+// ======= Scrolling Animations =======
+$('.scrollimation').waypoint(function(){
+    $(this).toggleClass('in');
+},{offset:'90%'});
 
-    /*============================================
-    Refresh scrollSpy function
-    ==============================================*/
-    function scrollSpyRefresh(){
-        setTimeout(function(){
-            $('body').scrollspy('refresh');
-        },1000);
-    }
 
-    /*============================================
-    Refresh waypoints function
-    ==============================================*/
-    function waypointsRefresh(){
-        setTimeout(function(){
-            $.waypoints('refresh');
-        },1000);
-    }
+// ======= Refresh scrollSpy =======
+function scrollSpyRefresh(){
+    setTimeout(function(){
+        $('body').scrollspy('refresh');
+    },1000);
+}
+
+// ====== Refresh waypoints  ======
+function waypointsRefresh(){
+    setTimeout(function(){
+        $.waypoints('refresh');
+    },1000);
+}
 });
 
-
+// ====== Header Animation =======
 (function() {
 
     var width, height, largeHeader, canvas, ctx, points, target, animateHeader = true;
