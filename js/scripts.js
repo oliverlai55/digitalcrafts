@@ -1,6 +1,6 @@
 $(document).ready(function() { 
 
-// Page Preloader
+// ======== Page Preloader =============
     $(window).load(function(){
         $('#page-loader').fadeOut(500);
     }); 
@@ -24,7 +24,6 @@ $(window).scroll(function(){
 
 
 // ======== ScrollTo Links ===========
- 
 $('a.scrollto').click(function(e){
     $('html,body').scrollTo(this.hash, this.hash, {gap:{y:-80}});
     e.preventDefault();
@@ -35,44 +34,39 @@ $('a.scrollto').click(function(e){
 });
 
 
-    /*============================================
-    Skills Functions
-    ==============================================*/
-    var aboutColor = $('#skills').css('color');
+// ======== Skills Functions ==========
+var aboutColor = $('#skills').css('color');
 
-    $('#skills').waypoint(function(){
-        $('.chart').each(function(){
+$('#skills').waypoint(function(){
+    $('.chart').each(function(){
         $(this).easyPieChart({
-                size:170,
-                animate: 1500,
-                lineCap:'butt',
-                scaleColor: false,
-                barColor: aboutColor,
-                lineWidth: 10
-            });
+            size:170,
+            animate: 1500,
+            lineCap:'butt',
+            scaleColor: false,
+            barColor: aboutColor,
+            lineWidth: 10
         });
-    },{offset:'80%'});
+    });
+},{offset:'80%'});
 
         
-    /*============================================
-    Project thumbs - Masonry
-    ==============================================*/
-    $(window).load(function(){
 
-        $('#projects-container').css({visibility:'visible'});
-
-        $('#projects-container').masonry({
-            itemSelector: '.project-item:not(.filtered)',
-            columnWidth:350,
-            isFitWidth: true,
-            isResizable: true,
-            isAnimated: !Modernizr.csstransitions,
-            gutterWidth: 0
-        });
-
-        scrollSpyRefresh();
-        waypointsRefresh();
+// ====== Project tiles - Masonry Functions =========
+$(window).load(function(){
+    $('#projects-container').css({visibility:'visible'});
+    $('#projects-container').masonry({
+        itemSelector: '.project-item:not(.filtered)',
+        columnWidth:350,
+        isFitWidth: true,
+        isResizable: true,
+        isAnimated: !Modernizr.csstransitions,
+        gutterWidth: 0
     });
+
+    scrollSpyRefresh();
+    waypointsRefresh();
+});
 
     /*============================================
     Filter Projects
