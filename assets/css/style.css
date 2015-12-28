@@ -1,0 +1,10 @@
+/* line 3, ../compass/sass/style.scss */
+.demo-1 .large-header {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  z-index: 1;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/city-night.jpg") no-repeat top center fixed;
+  background-size: cover;
+  height: 600px;
+}
