@@ -68,31 +68,30 @@ $(window).load(function(){
     waypointsRefresh();
 });
 
-    /*============================================
-    Filter Projects
-    ==============================================*/
-    $('#filter-works a').click(function(e){
-        e.preventDefault();
 
-        $('#filter-works li').removeClass('active');
-        $(this).parent('li').addClass('active');
+// ====== Filter Projects =======
+$('#filter-works a').click(function(e){
+    e.preventDefault();
 
-        var category = $(this).attr('data-filter');
+    $('#filter-works li').removeClass('active');
+    $(this).parent('li').addClass('active');
 
-        $('.project-item').each(function(){
-            if($(this).is(category)){
-                $(this).removeClass('filtered');
-            }
-            else{
-                $(this).addClass('filtered');
-            }
+    var category = $(this).attr('data-filter');
 
-            $('#projects-container').masonry('reload');
-        });
+    $('.project-item').each(function(){
+        if($(this).is(category)){
+            $(this).removeClass('filtered');
+        }
+        else{
+            $(this).addClass('filtered');
+        }
 
-        scrollSpyRefresh();
-        waypointsRefresh();
+        $('#projects-container').masonry('reload');
     });
+
+    scrollSpyRefresh();
+    waypointsRefresh();
+});
 
 
         /*============================================
