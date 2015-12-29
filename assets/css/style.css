@@ -434,6 +434,11 @@
   transition: all 0.3s ease-out;
 }
 /* line 386, ../compass/sass/style.scss */
+#portfolio .masonry-wrapper #projects-container .project-item .hover-mask:hover p {
+  bottom: 20px;
+  right: 20px;
+}
+/* line 390, ../compass/sass/style.scss */
 #portfolio .masonry-wrapper #projects-container .project-item .hover-mask:after {
   position: absolute;
   content: "";
@@ -446,11 +451,11 @@
   -webkit-transition: border 0.3s ease-out;
   transition: border 0.3s ease-out;
 }
-/* line 398, ../compass/sass/style.scss */
+/* line 402, ../compass/sass/style.scss */
 #portfolio .masonry-wrapper #projects-container .project-item .hover-mask:hover:after {
   border-width: 20px;
 }
-/* line 402, ../compass/sass/style.scss */
+/* line 406, ../compass/sass/style.scss */
 #portfolio .masonry-wrapper #projects-container .project-item.filtered {
   -moz-transform: scale(0);
   -ms-transform: scale(0);
@@ -458,22 +463,59 @@
   opacity: 0;
   filter: alpha(opacity=0);
 }
-/* line 410, ../compass/sass/style.scss */
+/* line 414, ../compass/sass/style.scss */
 #portfolio .masonry-wrapper #projects-container .project-item:hover img {
   -webkit-transform: scale(1.3);
   -moz-transform: scale(1.3);
   -ms-transform: scale(1.3);
   transform: scale(1.3);
 }
-/* line 416, ../compass/sass/style.scss */
+/* line 420, ../compass/sass/style.scss */
 #portfolio .masonry-wrapper #projects-container .project-item:hover .hover-mask {
   opacity: 1;
   filter: alpha(opacity=100);
   padding: 20px;
 }
 
-/* line 427, ../compass/sass/style.scss */
+/* line 431, ../compass/sass/style.scss */
 .no-csstransitions .project-item:hover .hover-mask {
   opacity: 0;
   filter: alpha(opacity=0);
+}
+
+/* line 437, ../compass/sass/style.scss */
+.no-opacity .project-item .hover-mask p {
+  visibility: hidden;
+}
+/* line 440, ../compass/sass/style.scss */
+.no-opacity .project-item .hover-mask:hover p {
+  visibility: visible;
+}
+
+/* line 445, ../compass/sass/style.scss */
+.masonry {
+  -webkit-transition-property: height, width;
+  -moz-transition-property: height, width;
+  -ms-transition-property: height, width;
+  -o-transition-property: height, width;
+  transition-property: height, width;
+}
+/* line 451, ../compass/sass/style.scss */
+.masonry .masonry-brick {
+  -webkit-transition-property: left, right, top, -webkit-transform, opacity;
+  -moz-transition-property: left, right, top, -moz-transform, opacity;
+  -ms-transition-property: left, right, top, -ms-transform, opacity;
+  -o-transition-property: left, right, top, -o-transform, opacity;
+  transition-property: left, right, top, transform, opacity;
+}
+
+/* line 460, ../compass/sass/style.scss */
+.masonry,
+.masonry .masonry-brick {
+  -webkit-transition-duration: 0.7s;
+  -moz-transition-duration: 0.7s;
+  -ms-transition-duration: 0.7s;
+  -o-transition-duration: 0.7s;
+  transition-duration: 0.7s;
+  transition-timing-function: ease-in-out;
 }
