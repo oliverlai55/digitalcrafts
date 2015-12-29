@@ -296,3 +296,35 @@
   font-size: 24px;
   font-weight: 300;
 }
+
+/* line 269, ../compass/sass/style.scss */
+#portfolio {
+  background: white;
+}
+/* line 272, ../compass/sass/style.scss */
+#portfolio #portfolio-header {
+  padding: 80px 0;
+  border-top: 1px solid #ddd;
+  /*border-bottom:1px solid #ddd;*/
+  font-size: 25px;
+  font-weight: 300;
+}
+/* line 278, ../compass/sass/style.scss */
+#portfolio #portfolio-header .section-title {
+  font-weight: 300;
+  margin-bottom: 60px;
+}
+/* line 282, ../compass/sass/style.scss */
+#portfolio #portfolio-header #filter-works ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+/* line 286, ../compass/sass/style.scss */
+#portfolio #portfolio-header #filter-works ul li {
+  display: inline-block;
+  padding: 0;
+  line-height: 24px;
+  background: transparent;
+  margin: 0 0 0 10px;
+}
