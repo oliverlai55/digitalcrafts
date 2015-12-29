@@ -519,6 +519,33 @@
 					}
 				}
 			}
+			#contact-form{
+				.form-group{
+					position:relative;
+					label{
+						display:none;
+						font-size:18px;
+						line-height:24px;
+						font-weight:400;
+						text-transform:uppercase;
+					}
+					.form-control {
+						background:#fff;
+						background:rgba(255,255,255,0.9);
+						border:none;
+						border-radius:1px;
+						outline:none;
+						box-shadow:none;
+						margin-bottom:30px;
+						height:68px;
+						font-size:30px;
+						line-height:48px;
+						font-weight:300;
+						color:#637187;
+						padding-left:64px;
+					}
+				}
+			}
 		}
 		.section-title [class*=fa]{
 			color:#8aaad9;

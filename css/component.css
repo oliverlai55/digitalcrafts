@@ -707,9 +707,9 @@
     text-transform:uppercase;
 }
 
-#contact-form.no-placeholder .form-group label{
+/*#contact-form.no-placeholder .form-group label{
     display:block;
-}
+}*/
 
 #contact-form .form-control {
     background:#fff;
