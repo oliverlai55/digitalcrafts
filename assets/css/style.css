@@ -519,3 +519,73 @@
   transition-duration: 0.7s;
   transition-timing-function: ease-in-out;
 }
+
+/* line 472, ../compass/sass/style.scss */
+#contact {
+  background: transparent;
+  color: #fff;
+}
+/* line 475, ../compass/sass/style.scss */
+#contact .contact-text {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/tokyo-night.gif") no-repeat top center fixed;
+  background-size: cover;
+  height: 800px;
+  width: 100%;
+  margin: 0;
+}
+/* line 481, ../compass/sass/style.scss */
+#contact .contact-text .section-title {
+  color: #fff;
+  margin-bottom: 84px;
+  font-size: 5.2em;
+  margin-top: 100px;
+}
+/* line 487, ../compass/sass/style.scss */
+#contact .contact-text .section-title .contact-info p, #contact .contact-text .section-title .contact-info address {
+  margin: 0 0 30px;
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 400;
+}
+/* line 493, ../compass/sass/style.scss */
+#contact .contact-text .section-title .contact-info .socials {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 24px;
+}
+/* line 497, ../compass/sass/style.scss */
+#contact .contact-text .section-title .contact-info .socials li {
+  display: inline-block;
+  margin: 0 15px 15px 0;
+}
+/* line 500, ../compass/sass/style.scss */
+#contact .contact-text .section-title .contact-info .socials li a {
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  font-size: 32px;
+  line-height: 48px;
+  text-align: center;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  -webkit-transition: color 0.2s ease-out;
+  transition: color 0.2s ease-out;
+}
+/* line 514, ../compass/sass/style.scss */
+#contact .contact-text .section-title .contact-info .socials li a:hover {
+  padding: 0;
+  color: #8aaad9;
+  text-decoration: none;
+}
+/* line 523, ../compass/sass/style.scss */
+#contact .contact-text .section-title [class*=fa] {
+  color: #8aaad9;
+  -webkit-transform: rotate(-15deg);
+  -moz-transform: rotate(-15deg);
+  -ms-transform: rotate(-15deg);
+  transform: rotate(-15deg);
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+}
