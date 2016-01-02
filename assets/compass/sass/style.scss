@@ -543,7 +543,20 @@
 						font-weight:300;
 						color:#637187;
 						padding-left:64px;
+
 					}
+				}
+				.form-group [class*="fa-"] {
+					display:block;
+					width:64px;
+					position:absolute;
+					top:0;
+					left:5px;
+					color:#637187;
+					font-size:32px;
+					line-height:68px;
+					text-align:center;
+					font-weight:300;
 				}
 			}
 		}
