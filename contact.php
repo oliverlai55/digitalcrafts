@@ -1,4 +1,4 @@
-<?php 
+<?php  
 $emailTo = 'oliverlai55@gmail.com'; 
 $siteTitle = 'Oliver Lai"s Page';
 
