@@ -580,10 +580,35 @@
   text-decoration: none;
 }
 /* line 523, ../compass/sass/style.scss */
+#contact .contact-text .section-title #contact-form .error-message {
+  background: #8aaad9;
+  padding: 10px 20px;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  font-size: 16px;
+  font-weight: 400;
+}
+/* line 532, ../compass/sass/style.scss */
+#contact .contact-text .section-title #contact-form textarea.form-control {
+  height: auto;
+  max-width: 100%;
+  min-width: 100%;
+  font-size: 30px;
+  line-height: 42px;
+  padding-top: 14px;
+}
+/* line 540, ../compass/sass/style.scss */
+#contact .contact-text .section-title #contact-form .form-control:focus {
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+/* line 545, ../compass/sass/style.scss */
 #contact .contact-text .section-title #contact-form .form-group {
   position: relative;
 }
-/* line 525, ../compass/sass/style.scss */
+/* line 547, ../compass/sass/style.scss */
 #contact .contact-text .section-title #contact-form .form-group label {
   display: none;
   font-size: 18px;
@@ -591,7 +616,7 @@
   font-weight: 400;
   text-transform: uppercase;
 }
-/* line 532, ../compass/sass/style.scss */
+/* line 554, ../compass/sass/style.scss */
 #contact .contact-text .section-title #contact-form .form-group .form-control {
   background: #fff;
   background: rgba(255, 255, 255, 0.9);
@@ -607,7 +632,7 @@
   color: #637187;
   padding-left: 64px;
 }
-/* line 549, ../compass/sass/style.scss */
+/* line 571, ../compass/sass/style.scss */
 #contact .contact-text .section-title #contact-form .form-group [class*="fa-"] {
   display: block;
   width: 64px;
@@ -620,7 +645,7 @@
   text-align: center;
   font-weight: 300;
 }
-/* line 563, ../compass/sass/style.scss */
+/* line 585, ../compass/sass/style.scss */
 #contact .contact-text .section-title [class*=fa] {
   color: #8aaad9;
   -webkit-transform: rotate(-15deg);
@@ -629,4 +654,35 @@
   transform: rotate(-15deg);
   opacity: 0.6;
   filter: alpha(opacity=60);
+}
+
+/* line 596, ../compass/sass/style.scss */
+#contact-form.no-placeholder .form-group [class*="fa-"] {
+  top: 30px;
+}
+
+/* line 599, ../compass/sass/style.scss */
+#contact-form .form-control::-webkit-input-placeholder {
+  /* WebKit browsers */
+  color: #637187;
+}
+
+/* line 602, ../compass/sass/style.scss */
+#contact-form .form-control:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #637187;
+  opacity: 1;
+}
+
+/* line 606, ../compass/sass/style.scss */
+#contact-form .form-control::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #637187;
+  opacity: 1;
+}
+
+/* line 610, ../compass/sass/style.scss */
+#contact-form .form-control:-ms-input-placeholder {
+  /* Internet Explorer 10+ */
+  color: #637187;
 }
