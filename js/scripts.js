@@ -104,7 +104,7 @@ $('.scrollimation').waypoint(function(){
 function scrollSpyRefresh(){
     setTimeout(function(){
         $('body').scrollspy('refresh');
-    },1000);
+    },1500);
 }
 
 // ====== Refresh waypoints  ======
