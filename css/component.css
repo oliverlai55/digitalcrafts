@@ -82,7 +82,7 @@
 .masonry .masonry-brick{-webkit-transition-duration:0.7s;-moz-transition-duration:0.7s;-ms-transition-duration:0.7s;-o-transition-duration:0.7s;transition-duration:0.7s;transition-timing-function:ease-in-out;}
 .masonry{-webkit-transition-property:height, width;-moz-transition-property:height, width;-ms-transition-property:height, width;-o-transition-property:height, width;transition-property:height, width;}
 .masonry .masonry-brick{-webkit-transition-property:left, right, top, -webkit-transform, opacity;-moz-transition-property:left, right, top, -moz-transform, opacity;-ms-transition-property:left, right, top, -ms-transform, opacity;-o-transition-property:left, right, top, -o-transform, opacity;transition-property:left, right, top, transform, opacity;}
-.contact-text{background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/tokyo-night3.gif') no-repeat top center fixed;background-size:cover;height:800px;width:100%;margin:0;}
+.contact-text{background:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../img/contact-image.jpg') no-repeat top center fixed;background-size:cover;height:800px;width:100%;margin:0;}
 #contact{background:transparent;color:#fff;}
 #contact .section-title{color:#fff;margin-bottom:84px;font-size:5.2em;margin-top:100px;}
 #contact .section-title [class*=fa]{color:#8aaad9;-webkit-transform:rotate(-15deg);-moz-transform:rotate(-15deg);-ms-transform:rotate(-15deg);transform:rotate(-15deg);opacity:0.6;filter:alpha(opacity=60);}
