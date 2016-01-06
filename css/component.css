@@ -50,7 +50,7 @@
 .percent{display:inline-block;line-height:170px;font-size:50px;font-weight:300;z-index:2;}
 .percent:after{content:'%';margin-left:0.1em;font-size:40px;}
 #skills .skills h2{margin:0 0 80px;color:#637187;font-size:24px;font-weight:300;}
-#portfolio{background:white;}
+#portfolio{background:white;padding-bottom: 9%;}
 #portfolio .section-title{font-weight:300;margin-bottom:60px;}
 #portfolio-header{padding:80px 0;border-top:1px solid #ddd;font-size:25px;font-weight:300;}
 #filter-works ul{list-style:none;padding:0;margin:0;}
